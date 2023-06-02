@@ -1,0 +1,99 @@
+{
+  "nodes": {
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": "nixpkgs-lib"
+      },
+      "locked": {
+        "lastModified": 1683560683,
+        "narHash": "sha256-XAygPMN5Xnk/W2c1aW0jyEa6lfMDZWlQgiNtmHXytPc=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "006c75898cf814ef9497252b022e91c946ba8e17",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "llvm_15_src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673507550,
+        "narHash": "sha256-wjuZQyXQ/jsmvy6y1aksCcEDXGBjuhpgngF3XQJ/T4s=",
+        "owner": "llvm",
+        "repo": "llvm-project",
+        "rev": "8dfdcc7b7bf66834a761bd8de445840ef68e4d1a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "llvm",
+        "ref": "release/15.x",
+        "repo": "llvm-project",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1684185445,
+        "narHash": "sha256-NC1Ae5br86aqVNuA7slrJDOVZSe1LwyN/UVzcW3016c=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "90094f509838dc39425c12a0a2beee1a2d086a22",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-lib": {
+      "locked": {
+        "dir": "lib",
+        "lastModified": 1682879489,
+        "narHash": "sha256-sASwo8gBt7JDnOOstnps90K1wxmVfyhsTPPNTGBPjjg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "da45bf6ec7bbcc5d1e14d3795c025199f28e0de0",
+        "type": "github"
+      },
+      "original": {
+        "dir": "lib",
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "opensycl_src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1683563043,
+        "narHash": "sha256-TGEM2PjQzZmXhCiU/VygLlPRTfoYxSeLsDYnm7mGaow=",
+        "owner": "OpenSYCL",
+        "repo": "OpenSYCL",
+        "rev": "12fdcaedfa990ab58ddf8bce304fa8cf917e6182",
+        "type": "github"
+      },
+      "original": {
+        "owner": "OpenSYCL",
+        "ref": "develop",
+        "repo": "OpenSYCL",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-parts": "flake-parts",
+        "llvm_15_src": "llvm_15_src",
+        "nixpkgs": "nixpkgs",
+        "opensycl_src": "opensycl_src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
