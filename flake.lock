@@ -18,23 +18,6 @@
         "type": "github"
       }
     },
-    "llvm_15_src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1673507550,
-        "narHash": "sha256-wjuZQyXQ/jsmvy6y1aksCcEDXGBjuhpgngF3XQJ/T4s=",
-        "owner": "llvm",
-        "repo": "llvm-project",
-        "rev": "8dfdcc7b7bf66834a761bd8de445840ef68e4d1a",
-        "type": "github"
-      },
-      "original": {
-        "owner": "llvm",
-        "ref": "release/15.x",
-        "repo": "llvm-project",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1684185445,
@@ -88,7 +71,6 @@
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
-        "llvm_15_src": "llvm_15_src",
         "nixpkgs": "nixpkgs",
         "opensycl_src": "opensycl_src"
       }
